@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* Corpo do Site */
+
 .corpo {
     text-align: center;
     padding: 20px;
@@ -122,12 +122,12 @@ body {
     text-align: center;
 }
 
-/* Biografia Invertida */
+
 .biografia-invertida {
     flex-direction: row-reverse; 
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .biografia,
     .biografia-invertida {
@@ -181,5 +181,3 @@ body {
     transition: 300ms ease-in-out;
     transform: scale();
 }
-
-/* Direitinhos */
