@@ -66,27 +66,6 @@ body {
     margin: 20px 0;
     color: #333;
 }
-
-.start-btn {
-    background-color: red;
-    border: 3px solid white;
-    padding: 10px;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-weight: bold;
-    transition: 300ms ease-in-out;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    text-decoration: none; 
-    display: inline-block; 
-}
-
-.start-btn:hover {
-    background-color: green;
-    transform: scale(1.05);
-}
-
 .biografia {
     display: flex;
     align-items: center;
@@ -123,20 +102,17 @@ body {
 }
 
 
-.biografia-invertida {
-    flex-direction: row-reverse; 
-}
 
 
 @media (max-width: 768px) {
     .biografia,
-    .biografia-invertida {
+   {
         flex-direction: column;
         gap: 60px;
     }
 
     .biografia img,
-    .biografia-invertida img {
+   {
         width: 80%;
         height: auto;
     }
@@ -152,8 +128,7 @@ body {
 }
 
 @media (max-width: 480px) {
-    .biografia,
-    .biografia-invertida {
+    .biografia {
         gap: 40px;
     }
 
@@ -163,13 +138,13 @@ body {
     }
 
     .biografia h1,
-    .biografia-invertida h1 {
+     {
         font-size: 20px;
         margin-bottom: 10px;
     }
 
     .biografia p,
-    .biografia-invertida p {
+    {
         font-size: 14px;
     }
 }
@@ -181,3 +156,4 @@ body {
     transition: 300ms ease-in-out;
     transform: scale();
 }
+
